@@ -40,7 +40,7 @@ const productSchema = new Schema(
   }
 );
 
-// Crea un modelo llamado 'User', basado en el esquema anterior. Esto conecta el nombre
+// Crea un modelo llamado 'Product', basado en el esquema anterior. Esto conecta el nombre
 // del modelo con una colección en MongoDB llamada 'product'
 const product = mongoose.model("Product", productSchema, "products");
 // mongoose.model("<Nombre del modelo>", <Esquema>, <Nombre de colección>);
